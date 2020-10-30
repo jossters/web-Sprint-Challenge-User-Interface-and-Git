@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
@@ -104,7 +105,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -144,3 +145,92 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.box:first-child  {
+    background-color:teal;}
+.box:nth-child(2){
+    background-color:gold ;    }
+.box:nth-child(3){
+    background-color:cadetblue ;    }   
+.box:nth-child(4){
+    background-color:coral ;}
+.box:nth-child(5){
+    background-color:crimson ;}
+.box:nth-child(6){
+    background-color:forestgreen ;}
+.box:nth-child(7){
+    background-color:darkorchid ;}
+.box:nth-child(8){
+    background-color:hotpink ;}
+.box:nth-child(9){
+    background-color:indigo ;}
+.box:nth-child(10){
+    background-color:dodgerblue ;}
+
+    header {
+        width: 100%;
+        
+    }
+    
+    header nav {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        justify-content: space-between;  
+        padding: 20px 0%;
+        font-size:1rem ;
+        
+    }
+    .lambda{
+        width:21%;
+    }    
+    header nav a {
+       color: black;
+        text-decoration: none;
+    }
+    .links{
+        
+        display:flex;
+        justify-content:space-evenly;
+        align-items:flex-end;
+        width: 79%;
+    }
+    
+     .jumbo img {
+       padding-top: 3%;
+       padding-bottom:3% ;
+    } 
+    
+    /*About me section*/
+
+    .aboutme{
+        border-bottom:2px dotted black;
+       padding: 2%;
+    }
+    .strategy div{
+    width:46%;
+    border-bottom:2px dotted black; 
+    margin: 2%;
+    padding-bottom: 2%;
+    }
+   .strategy{
+    display:flex;
+    flex-wrap:wrap;
+    margin: 2%;
+}
+   .letswork{
+    padding: 5%;  
+ }
+ .strategy a{
+     text-decoration: none;
+     color: black;
+     border: 2px solid black;
+     border-radius: 5px;
+     padding: 2%;
+     display: flex; 
+     width: 35%;
+     justify-content: center;
+ }
+ .strategy p{
+     padding-bottom: 5%;
+ }
+    
